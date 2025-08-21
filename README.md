@@ -1,20 +1,22 @@
 # Como usar
 
-1. **Instale as dependências necessárias:**
+## 1) Instale as dependências
 
-   ```bash
-   pip install requests
-   ```
+```bash
+pip install requests
+```
 
-2. **Coloque um arquivo **`links.txt`** com **um link por linha** na pasta **`input`\*\*.
+## 2) Prepare a entrada
 
-3. **Execute o script:**
+Crie o arquivo `links.txt` dentro da pasta `input` **(um link por linha)**.
 
-   ```bash
-   python main.py
-   ```
+## 3) Execute o script
 
-4. **Resultados:**
-   - Arquivo com os dados extraídos: **`output/resultado_excel_ptbr.csv`**  
-     (separador `;`, coordenadas com 2 casas decimais)
-   - Links que **não deram certo**: **`output/links_falhos.txt`** (um por linha)
+```bash
+python main.py
+```
+
+## 4) Resultados
+
+- `output/resultado_excel_ptbr.csv` — separador `;` e coordenadas com **2 casas decimais**
+- `output/links_falhos.txt` — lista de links que **falharam** (um por linha)
